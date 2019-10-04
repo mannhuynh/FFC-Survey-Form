@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(173, 173, 168);
+    color: rgb(83, 81, 81);
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+p {
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+form {
+    background-color: #d3d3d3;
+    padding: 1% 5% 1% 5%;
+    margin: 0 15%;
+    border-radius: 2%;
+   
+   
+}
+
+input {
+    margin-left: 1px;
+    border: none;
+    background-color: rgb(240, 236, 236)
+
+}
+
+input::placeholder {
+    color: darkgray;
+}
+
+.input-box {
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+   
+    border-radius: 2px;
+  }
+
+select {
+    background-color: rgb(240, 236, 236);
+    margin-left: 2px;
+    border: none;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left-block {
+    text-align: left;
+    margin: 0% 10% 0% auto;
+    background-color: rgb(226, 224, 224);
+    height: 22rem;
+    width: 35rem;
+    border-radius: 2%;
+    padding: 1.2rem;
+    
+}
+
+.right-block {
+    text-align: left;
+    margin: 0% auto 0% auto;
+    background-color:  rgb(226, 224, 224);
+    height: 22rem;
+    width: 35rem;
+    border-radius: 2%;
+    padding: 1rem;
+    
+}
+
+.roles {
+    margin: 3% 0 3% 0;
+}
+
+.comment {
+    margin: 3% auto 1% auto;
+    font-weight: 600;
+    
+}
+
+textarea {
+    background-color: rgb(240, 236, 236);
+    border: none;
+    border-radius: 2%;
+}
+button {
+    background-color:#7e8a96f3;
+    color: rgb(240, 236, 236);
+    border-radius: 4px;
+    font-size: 1.2em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+}
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px auto;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+}
